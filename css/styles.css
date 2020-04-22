@@ -1,0 +1,188 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* h1, h2, h3, h4, h5, h6{
+
+} */
+
+h1{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  /* font-weight: 900; */
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  color: #8f8f8f;
+}
+
+i{
+  margin: 0 1%;
+}
+
+/* Headings */
+.main-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mybtn{
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#features{
+  padding: 7% 15%;
+}
+
+.fts{
+  text-align: center;
+  padding: 5%;
+}
+
+.icons{
+  /* font-size: 60px; */
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+.fh3{
+  font-size: 1.5rem;
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: 900;
+}
+
+.main{
+  transform: rotate(25deg);
+  /* position: absolute; */
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .main{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#features{
+  /* padding: 7% 15%; */
+  background-color: #fff;
+  position: relative;
+  /* bottom: 50px; */
+  z-index: 1;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  /* font-weight: 0; */
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressimg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricol{
+  padding: 2% 3%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15% 3%;
+  font-weight: bold;
+}
+
+.foot{
+  font-family: 'Raleway', sans-serif;
+  /* padding-bottom: 3%; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15% 2%;
+  text-align: center;
+  /* font-weight: 500; */
+}
+
+.last{
+  color: #000;
+}
